@@ -10,15 +10,16 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-family:'Nunito',sans-serif;
-    text-align: center;
 }
 
 p{
+    text-align: center;
     margin-bottom: 25px;
 }
 
 /* header */
 header{
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -40,15 +41,23 @@ h1{
 .column {
     float: left;
     width: calc(100% / 3);
-    /* background-color: black;
-    padding: 25px 17px; */
 }
 
-/* prove */
+.column.left{
+    padding: 25px 17px 25px 0px;
+}
+
+.column.center{
+    padding: 25px 17px;
+}
+
+.column.right{
+    padding: 25px 0px 25px 17px;
+}
+
 .box{
-    margin: 100px;
-    width: 300px;
-    height: 130px;
+    width: 90%;
+    height: 75%;
     background-color: black;
 }
 /* end section */
