@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px rgba(100%, 0%, 0%, 0.4) solid;
 }
 
 body{
@@ -46,6 +45,7 @@ h1{
 
 h2{
     font-size: 1em;
+    font-weight: 900;
 }
 
 img{
@@ -62,5 +62,15 @@ div.info{
 .box{
     height: 100px;
     background-color: #0f0e16;
+}
+
+.role{
+    font-weight: 400;
+}
+
+a{
+    color: #1faece;
+    font-weight: 400;
+    text-decoration: none;
 }
 /* end section */
