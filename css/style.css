@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px rgba(100%, 0%, 0%, 0.4) solid; */
+    border: 1px rgba(100%, 0%, 0%, 0.4) solid;
 }
 
 body{
@@ -59,9 +59,6 @@ div.info{
     color: white;
 }
 
-.info *{
-    padding-bottom: 5px;
-}
 .box{
     height: 100px;
     background-color: #0f0e16;
